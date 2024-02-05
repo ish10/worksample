@@ -1,0 +1,17 @@
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\bin\Debug\net8.0\DataAcess.deps.json
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\bin\Debug\net8.0\DataAcess.runtimeconfig.json
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\bin\Debug\net8.0\DataAcess.dll
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\bin\Debug\net8.0\DataAcess.pdb
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\bin\Debug\net8.0\Datamodel.dll
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\bin\Debug\net8.0\Datamodel.pdb
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.csproj.AssemblyReference.cache
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.AssemblyInfoInputs.cache
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.AssemblyInfo.cs
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.csproj.CoreCompileInputs.cache
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.csproj.CopyComplete
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.dll
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\refint\DataAcess.dll
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.pdb
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.genruntimeconfig.cache
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\ref\DataAcess.dll

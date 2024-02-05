@@ -1,0 +1,11 @@
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\bin\Debug\net8.0\Datamodel.deps.json
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\bin\Debug\net8.0\Datamodel.dll
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\bin\Debug\net8.0\Datamodel.pdb
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\Datamodel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\Datamodel.AssemblyInfoInputs.cache
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\Datamodel.AssemblyInfo.cs
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\Datamodel.csproj.CoreCompileInputs.cache
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\Datamodel.dll
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\refint\Datamodel.dll
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\Datamodel.pdb
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\ref\Datamodel.dll

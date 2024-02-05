@@ -1,0 +1,6 @@
+@InfiniteLocusWorkSample_HostAddress = http://localhost:5056
+
+GET {{InfiniteLocusWorkSample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
