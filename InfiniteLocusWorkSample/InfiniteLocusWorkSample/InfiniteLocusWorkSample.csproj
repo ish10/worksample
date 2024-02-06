@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DataAcess\DataAcess.csproj" />
     <ProjectReference Include="..\Datamodel\Datamodel.csproj" />
   </ItemGroup>

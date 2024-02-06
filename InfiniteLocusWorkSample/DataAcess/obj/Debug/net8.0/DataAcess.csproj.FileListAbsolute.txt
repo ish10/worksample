@@ -15,3 +15,4 @@ C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\r
 C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.pdb
 C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.genruntimeconfig.cache
 C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\ref\DataAcess.dll
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\DataAcess\obj\Debug\net8.0\DataAcess.sourcelink.json

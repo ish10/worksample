@@ -14,5 +14,6 @@ namespace DataAcess.Data
         
         }
         public DbSet<VendorDetail>Vendors { get; set; }
+        public DbSet<ErrorLog>Errors { get; set; }
     }
 }

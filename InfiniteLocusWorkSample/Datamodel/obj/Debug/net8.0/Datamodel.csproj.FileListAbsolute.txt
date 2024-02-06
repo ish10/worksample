@@ -9,3 +9,4 @@ C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\D
 C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\refint\Datamodel.dll
 C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\Datamodel.pdb
 C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\ref\Datamodel.dll
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\Datamodel\obj\Debug\net8.0\Datamodel.sourcelink.json

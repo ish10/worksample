@@ -54,9 +54,10 @@ namespace InfiniteLocusWorkSample.Controllers
 
         public async Task<IActionResult> SaveVendorDetails([FromBody] VendorDetail vendorDetail )
         {
-
+         
             try
             {
+
                 return GetResult(await _vendorManagementService.SaveVendorDetail(vendorDetail));
 
             }
@@ -87,7 +88,7 @@ namespace InfiniteLocusWorkSample.Controllers
         }
 
         [HttpDelete]
-
+        [Route("DeleteVendorDetail/{id}")]
         public async Task<IActionResult> DeleteVendorDetail(int id) 
         {
             try

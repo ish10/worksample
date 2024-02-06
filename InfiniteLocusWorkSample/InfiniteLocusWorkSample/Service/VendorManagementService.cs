@@ -1,22 +1,34 @@
 ﻿using Datamodel.Models;
+using InfiniteLocusWorkSample.Helper.Interface;
 using InfiniteLocusWorkSample.Model.ApiResponse;
 using InfiniteLocusWorkSample.Repository.Interfaces;
 using InfiniteLocusWorkSample.Service.Interfaces;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace InfiniteLocusWorkSample.Service
 {
     public class VendorManagementService : IVendorManagementService
     {
         private readonly IVendorManagementRepository _vendorManagementRepository;
-
-        public VendorManagementService(IVendorManagementRepository vendorManagementRepository)
+        private readonly ICustomValidator _CustomValidator;
+        public VendorManagementService(IVendorManagementRepository vendorManagementRepository, ICustomValidator CustomValidator)
         {
             _vendorManagementRepository = vendorManagementRepository;
+            _CustomValidator = CustomValidator;
         }
         public async Task<ApiResponse> DeleteVendor(int id)
         {
+            
+           
             try
             {
+                var validationResult= await _CustomValidator.validateSingle(id);
+                if (validationResult.Count > 0) 
+                {
+                    return new ApiBadRequest(validationResult);
+                }
                 var result=await _vendorManagementRepository.DeleteVendor(id);
                 if (result)
                 {
@@ -29,6 +41,7 @@ namespace InfiniteLocusWorkSample.Service
             }
             catch (Exception ex)
             {
+                
                 throw;
             }
         }
@@ -37,6 +50,12 @@ namespace InfiniteLocusWorkSample.Service
         {
              try
             {
+                var validationResult = await _CustomValidator.validateSingle(id);
+                if (validationResult.Count > 0)
+                {
+                    return new ApiBadRequest(validationResult);
+                }
+
                 var result = await _vendorManagementRepository.GetVendor(id);
                 if (result!=null)
                 {
@@ -59,7 +78,7 @@ namespace InfiniteLocusWorkSample.Service
             try
             {
                 var result = await _vendorManagementRepository.GetVendors();
-                if (result != null)
+                if (result.Count>0)
                 {
                     return new ApiOkResponse(result);
                 }
@@ -77,10 +96,13 @@ namespace InfiniteLocusWorkSample.Service
 
         public async Task<ApiResponse> SaveVendorDetail(VendorDetail vendorDetail)
         {
-            Dictionary<int,string> dic= new Dictionary<int, string>();
+          
+           
+                Dictionary<int,string> dic= new Dictionary<int, string>();
             dic.Add(1, "validation error");
             try
             {
+               
                 var result = await _vendorManagementRepository.SaveVendorDetail(vendorDetail);
                 if (result)
                 {
@@ -105,6 +127,11 @@ namespace InfiniteLocusWorkSample.Service
             dic.Add(1, "validation error");
             try
             {
+                var validationResult = await _CustomValidator.validateSingle(vendorDetail.Id);
+                if (validationResult.Count > 0)
+                {
+                    return new ApiBadRequest(validationResult);
+                }
                 var result = await _vendorManagementRepository.UpdateVendorDetail(vendorDetail);
                 if (result)
                 {

@@ -1,6 +1,8 @@
 using DataAcess.Data;
 using InfiniteLocusWorkSample.DbContext;
 using InfiniteLocusWorkSample.DbContext.Interfaces;
+using InfiniteLocusWorkSample.Helper;
+using InfiniteLocusWorkSample.Helper.Interface;
 using InfiniteLocusWorkSample.Middleware;
 using InfiniteLocusWorkSample.Repository;
 using InfiniteLocusWorkSample.Repository.Interfaces;
@@ -21,6 +23,7 @@ builder.Services.AddApiVersioning(options=> {
     options.AssumeDefaultVersionWhenUnspecified = true;
 });
 //injecting dependencies
+builder.Services.AddSingleton<ICustomValidator,CustomValidator>();
 builder.Services.AddScoped < IVendorManagementDbContext, VendorManagementDbContext>();
 builder.Services.AddScoped<IVendorManagementService,VendorManagementService>();
 builder.Services.AddScoped<IVendorManagementRepository, VendorManagementRepository>();
