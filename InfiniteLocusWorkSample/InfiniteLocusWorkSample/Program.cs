@@ -1,3 +1,4 @@
+
 using DataAcess.Data;
 using InfiniteLocusWorkSample.DbContext;
 using InfiniteLocusWorkSample.DbContext.Interfaces;
@@ -8,6 +9,7 @@ using InfiniteLocusWorkSample.Repository;
 using InfiniteLocusWorkSample.Repository.Interfaces;
 using InfiniteLocusWorkSample.Service;
 using InfiniteLocusWorkSample.Service.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,8 +21,11 @@ builder.Services.AddDbContext<ApplicationDbcontext>(options => {
 });
 builder.Services.AddProblemDetails();
 builder.Services.AddControllers();
-builder.Services.AddApiVersioning(options=> {
+
+builder.Services.AddApiVersioning(options => {
     options.AssumeDefaultVersionWhenUnspecified = true;
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+
 });
 //injecting dependencies
 builder.Services.AddSingleton<ICustomValidator,CustomValidator>();

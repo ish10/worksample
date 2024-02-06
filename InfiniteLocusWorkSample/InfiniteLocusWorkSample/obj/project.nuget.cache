@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "oNCpNg+fU3VeAogm0/TGt54ogVheS6UuFqegZbj8xDF8orG5tHH6zbGP1hiRdZZnBi1cmrooL5BlcqiV9UR/Gw==",
+  "dgSpecHash": "ZuqXzjw6l0k48LN6ZVl9Sl9hoY4Y4RCsxur05MKrqhfOdykyOTqhaWVvhZ2H5/itcu4RPI5Nflfff9GCOsCbpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ishpr\\source\\repos\\InfiniteLocusWorkSample\\InfiniteLocusWorkSample\\InfiniteLocusWorkSample.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ishpr\\.nuget\\packages\\asp.versioning.abstractions\\8.0.0\\asp.versioning.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\ishpr\\.nuget\\packages\\asp.versioning.http\\8.0.0\\asp.versioning.http.8.0.0.nupkg.sha512",
-    "C:\\Users\\ishpr\\.nuget\\packages\\asp.versioning.mvc\\8.0.0\\asp.versioning.mvc.8.0.0.nupkg.sha512",
     "C:\\Users\\ishpr\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ishpr\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\ishpr\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\ishpr\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "C:\\Users\\ishpr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\ishpr\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\ishpr\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

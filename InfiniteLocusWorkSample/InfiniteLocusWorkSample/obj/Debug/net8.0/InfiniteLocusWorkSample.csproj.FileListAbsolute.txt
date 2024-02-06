@@ -138,7 +138,5 @@ C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\InfiniteLocusWorkSample\obj\
 C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\InfiniteLocusWorkSample\obj\Debug\net8.0\InfiniteLocusWorkSample.pdb
 C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\InfiniteLocusWorkSample\obj\Debug\net8.0\InfiniteLocusWorkSample.genruntimeconfig.cache
 C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\InfiniteLocusWorkSample\obj\Debug\net8.0\ref\InfiniteLocusWorkSample.dll
-C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\InfiniteLocusWorkSample\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
-C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\InfiniteLocusWorkSample\bin\Debug\net8.0\Asp.Versioning.Http.dll
-C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\InfiniteLocusWorkSample\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
 C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\InfiniteLocusWorkSample\obj\Debug\net8.0\InfiniteLocusWorkSample.sourcelink.json
+C:\Users\ishpr\source\repos\InfiniteLocusWorkSample\InfiniteLocusWorkSample\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll

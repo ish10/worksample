@@ -1,4 +1,5 @@
-﻿using DataAcess.Data;
+﻿
+using DataAcess.Data;
 using Datamodel.Models;
 using InfiniteLocusWorkSample.Model.ApiResponse;
 using InfiniteLocusWorkSample.Service;
@@ -10,7 +11,8 @@ using Microsoft.Identity.Client;
 
 namespace InfiniteLocusWorkSample.Controllers
 {
-  
+    [ApiVersion("1.0")]
+    
     public class VendorManagementController :BaseController
     {
         private readonly IVendorManagementService _vendorManagementService;

@@ -106,7 +106,7 @@ namespace InfiniteLocusWorkSample.Service
                 var result = await _vendorManagementRepository.SaveVendorDetail(vendorDetail);
                 if (result)
                 {
-                    return new ApiOkResponse(result);
+                    return new ApiCreatedResponse();
                 }
                 else
                 {
