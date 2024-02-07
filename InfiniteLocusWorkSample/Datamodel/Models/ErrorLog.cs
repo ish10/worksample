@@ -13,6 +13,6 @@ namespace Datamodel.Models
         public int Id { get; set; }
         public String? Error { get; set; }
         
-        public DateTime? timecreated { get; set; }
+        public DateTime? TimeCreated { get; set; }
     }    
 }
